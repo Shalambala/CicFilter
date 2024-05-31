@@ -125,7 +125,7 @@ module CicFilterTb	();
 	end
 
 	always	@(posedge	clk50)	begin
-		if	(simCnt==100)	begin
+		if	(simCnt==1)	begin
 			filteredSignal = $fopen("filteredSignal.txt","w");
 		end	else	begin
 			if	(dataOutVal)	begin
