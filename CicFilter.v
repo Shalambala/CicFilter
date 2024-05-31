@@ -1,3 +1,25 @@
+`timescale 1ns / 1ps
+//////////////////////////////////////////////////////////////////////////////////
+// Company: 
+// Engineer: Churbanov S. 
+// 
+// Create Date:    
+// Design Name: 
+// Module Name:    CicFilter 
+// Project Name: 
+// Target Devices: 
+// Tool versions: 
+// Description: 
+//
+// Dependencies: 
+//
+// Revision: 
+// Revision 0.01 - File Created
+// Additional Comments: 
+// 
+// 
+//////////////////////////////////////////////////////////////////////////////////
+
 module CicFilter
 #(
 	parameter N = 2,	//filter order

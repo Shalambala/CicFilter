@@ -55,8 +55,6 @@ module CicFilterTb	();
 	wire signed [MaxWidth-1:0] dataOut;
 	wire dataOutVal;
 
-	wire signed [15:0] singlePulse = (simCnt>=10&simCnt<=11)?	14'h1fff:14'h0;
-	
 	integer inSignal,filteredSignal;
 	
 //==========================================================================================
